@@ -4,10 +4,8 @@
     <meta charset="UTF-8" />
     <title>Paulo Lopes | Portefólio</title>
   </head>
-
   <body>
-
-    <header>
+    <header id="topo">
       <!-- Apresentação e Imagem -->
       <img
         src="imagens/foto.jpg"
@@ -16,35 +14,46 @@
         height="160"
       />
       <h1>Paulo Lopes</h1>
-      <p>
-        Futuro programador web, a aprender a construir sites de raiz.
-      </p>
+      <p>Futuro programador web, a aprender a construir sites de raiz.</p>
       <nav>
         <p>Início · Sobre · Percurso · Contactos</p>
-      </nav> 
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-
       <!-- Sobre mim -->
       <section>
         <h2>Sobre mim</h2>
         <p>
-          Sou apaixonado por tecnologia e desenvolvimento de software, com formação
-          em Engenharia Informática.
+          Sou apaixonado por tecnologia e desenvolvimento de software, com
+          formação em Engenharia Informática.
         </p>
         <p>
-          Tenho procurado desenvolver as minhas competências na área da programação,
-          através de projetos práticos, formação e experiências profissionais.
+          Tenho procurado desenvolver as minhas competências na área da
+          programação, através de projetos práticos, formação e experiências
+          profissionais.
         </p>
 
         <p>
-          Em 2026 decidi mudar de vida e aprofundar mais em programação: quero ser
-          programador <span lang="en">full-stack</span>.
+          Em 2026 decidi mudar de vida e aprofundar mais em programação: quero
+          ser programador <span lang="en">full-stack</span>.
         </p>
+        <h3>Competências em desenvolvimento</h3>
+        <ul>
+          <li>HTML5 semântico e estruturação acessível</li>
+          <li>Controlo de versões com Git e GitHub</li>
+          <li>Atenção ao detalhe e organização de código</li>
+          <li>Comunicação e trabalho em equipa</li>
+        </ul>
         <aside>
           <p>
-            <strong>Sabiam que…</strong> o primeiro site da história foi publicado em 1991, no CERN, por Tim Berners-Lee.
+            <strong>Sabiam que…</strong> o primeiro site da história foi
+            publicado em 1991, no CERN, por Tim Berners-Lee.
           </p>
         </aside>
       </section>
@@ -52,6 +61,56 @@
       <!-- O meu percurso -->
       <section>
         <h2>O meu percurso</h2>
+        <p>
+          O meu caminho profissional e as etapas de formação que me trouxeram
+          até aqui:
+        </p>
+
+        <table>
+          <caption>
+            Linha do tempo do meu percurso profissional e académico
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Período</th>
+              <th scope="col">Área</th>
+              <th scope="col">Entidade</th>
+              <th scope="col">Local</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">2026 - Presente</th>
+              <td>Curso de Desenvolvimento Web Full-Stack</td>
+              <td>Labanta Academia</td>
+              <td>Praia</td>
+            </tr>
+            <tr>
+              <th scope="row">2026 - Presente</th>
+              <td>Programador</td>
+              <td>MGO</td>
+              <td>Praia</td>
+            </tr>
+            <tr>
+              <th scope="row">2025 - Presente</th>
+              <td>Screener Aeroportuário</td>
+              <td>AIDP-NM</td>
+              <td>Praia</td>
+            </tr>
+            <tr>
+              <th scope="row">2025 - 2026</th>
+              <td>Estágio em Desenvolvimento Frontend e Design System</td>
+              <td>NOSi - GAI</td>
+              <td>Praia</td>
+            </tr>
+            <tr>
+              <th scope="row">2022 - 2025</th>
+              <td>Marcenaria e Carpintaria</td>
+              <td>ESB</td>
+              <td>Praia</td>
+            </tr>
+          </tbody>
+        </table>
 
         <h3>Engenharia Informática</h3>
         <p>
@@ -62,8 +121,8 @@
         <h3>NOSi Akademia</h3>
         <p>
           Experiência de estágio na NOSi, na equipa Government Applications
-          Innovations (GAI), com foco no desenvolvimento frontend, Design System e
-          melhoria de componentes.
+          Innovations (GAI), com foco no desenvolvimento frontend, Design System
+          e melhoria de componentes.
         </p>
 
         <h3>Formação em Inteligência Artificial e Desenvolvimento Web</h3>
@@ -113,8 +172,9 @@
         </p>
         <p><strong>Disponível para estágio a partir de 2027.</strong></p>
       </section>
-      
     </main>
+
+    <a href="#topo">Voltar ao topo</a>
 
     <!-- Rodapé -->
     <footer>
