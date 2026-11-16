@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-PT">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paulo Lopes | Contactos</title>
-</head>
-<body>
+  </head>
+  <body>
     <header id="topo">
       <!-- Apresentação e Imagem -->
       <img
@@ -15,9 +15,7 @@
         height="160"
       />
       <h1>Paulo Lopes</h1>
-      <p>
-        Futuro programador web, a aprender a construir sites de raiz.
-      </p>
+      <p>Futuro programador web, a aprender a construir sites de raiz.</p>
       <nav>
         <p>Início · Sobre · Percurso · Contactos</p>
         <ul>
@@ -25,7 +23,7 @@
           <li><a href="projetos.html">Projetos</a></li>
           <li><a href="contactos.html">Contactos</a></li>
         </ul>
-      </nav> 
+      </nav>
     </header>
 
     <main>
@@ -33,8 +31,8 @@
         <!-- Contactos Principais-->
         <h2>Vamos conversar?</h2>
         <p>
-            Estou disponível para novas oportunidades de estágio e colaboração. Podem entrar em contacto comigo através dos seguintes 
-            canais:
+          Estou disponível para novas oportunidades de estágio e colaboração.
+          Podem entrar em contacto comigo através dos seguintes canais:
         </p>
 
         <ul>
@@ -44,10 +42,16 @@
           </li>
           <li>
             <strong>GitHub:</strong>
-            <a href="https://github.com/LuisSDK" target="_blank" rel="noopener noreferrer">LuisSDK</a>
+            <a
+              href="https://github.com/LuisSDK"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LuisSDK</a
+            >
           </li>
           <li>
-            <strong>Localização:</strong> Praia, Cabo Verde (disponível para trabalhos remotos ou presenciais)  
+            <strong>Localização:</strong> Praia, Cabo Verde (disponível para
+            trabalhos remotos ou presenciais)
           </li>
         </ul>
         <aside>
@@ -58,11 +62,111 @@
         </aside>
       </section>
 
+      <section id="formulario-contacto">
+        <!-- Formulário de Contacto -->
+        <h2>Envie uma mensagem</h2>
+        <p>
+          Se preferir, pode enviar uma mensagem diretamente através do
+          formulário abaixo:
+        </p>
+
+        <form action="#" method="post">
+          <!-- Os campos de formulário vão entrar aqui nos próximos passos -->
+          <fieldset>
+            <legend>Os seus dados</legend>
+            <p>
+              <label for="nome">Nome completo:</label><br />
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Ex.: Paulo Lopes"
+              />
+            </p>
+
+            <p>
+              <label for="email">Correio eletrónico:</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="paulo@exemplo.cv"
+              />
+            </p>
+
+            <p>
+              <label for="telefone">Telefone / Telemóvel (opcional):</label
+              ><br />
+              <input
+                type="tel"
+                id="telefone"
+                name="telefone"
+                placeholder="912 345 678"
+              />
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Motivo e Mensagem</legend>
+            <p>
+              <label for="assunto">Assunto:</label><br />
+              <select id="assunto" name="assunto">
+                <option value="">-- Escolha um assunto --</option>
+                <option value="estagio">Proposta de estágio</option>
+                <option value="projeto">Projeto ou colaboração</option>
+                <option value="duvida">Dúvida / Troca de ideias</option>
+                <option value="outro">Outro assunto</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="mensagem">Mensagem:</label><br />
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="6"
+                cols="40"
+                placeholder="Escreva aqui a sua mensagem..."
+              ></textarea>
+            </p>
+
+            <p>Como prefere receber a resposta?</p>
+            <p>
+              <input
+                type="radio"
+                id="pref-email"
+                name="preferencia"
+                value="email"
+                checked
+              />
+              <label for="pref-email">Por e-mail</label><br />
+              <input
+                type="radio"
+                id="pref-telefone"
+                name="preferencia"
+                value="telefone"
+              />
+              <label for="pref-telefone">Por telefone</label>
+            </p>
+
+            <p>
+              <input type="checkbox" id="copia" name="copia" value="sim" />
+              <label for="copia">Desejo receber uma cópia no meu e-mail</label>
+            </p>
+          </fieldset>
+          <p>
+            <button type="submit">Enviar mensagem</button>
+            <button type="reset">Limpar formulá rio</button>
+          </p>
+        </form>
+      </section>
+
       <section>
         <!--Disponibilidade-->
         <h2>Horário de Disponibilidade</h2>
         <p>
-          Periodos em que estou mais disponível para reuniõesou conversas informais:
+          Periodos em que estou mais disponível para reuniõesou conversas
+          informais:
         </p>
 
         <table>
@@ -94,9 +198,7 @@
             </tr>
           </tbody>
         </table>
-
       </section>
-
     </main>
 
     <a href="#topo">Voltar ao topo</a>
@@ -104,6 +206,5 @@
     <footer>
       <p>&copy; 2026 Paulo Lopes</p>
     </footer>
-    
-</body>
+  </body>
 </html>
