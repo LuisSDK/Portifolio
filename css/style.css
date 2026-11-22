@@ -1,0 +1,201 @@
+/* ==========================================================================
+   Portefólio Pessoal — Ana Martins
+   Folha de Estilos Principal (CSS I: Sintaxe e Seletores)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Seletores de Tipo (Estilos Globais e Tipografia)
+   -------------------------------------------------------------------------- */
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: #334155;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 24px 16px;
+}
+
+/* Agrupamento de títulos */
+h1,
+h2,
+h3 {
+  color: #0f172a;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 6px;
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+a {
+  color: #0284c7;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid #cbd5e1;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* Tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+th,
+td {
+  border: 1px solid #cbd5e1;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+/* Formulários */
+label {
+  display: block;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* --------------------------------------------------------------------------
+   2. Seletores Descendentes (Contexto)
+   -------------------------------------------------------------------------- */
+
+/* Menu de navegação */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0284c7;
+  font-weight: 600;
+  padding: 6px 12px;
+}
+
+/* Citações em artigos */
+article blockquote {
+  margin: 0 0 8px 0;
+  font-style: italic;
+  color: #334155;
+}
+
+/* --------------------------------------------------------------------------
+   3. Seletores de Classe (Componentes Reutilizáveis)
+   -------------------------------------------------------------------------- */
+
+/* Cartões destacados (projetos e testemunhos) */
+.cartao {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+/* Caixas de curiosidade e notas informativas */
+.curiosidade {
+  background-color: #f0fdf4;
+  border-left: 4px solid #16a34a;
+  padding: 12px 16px;
+  margin: 20px 0;
+}
+
+/* Texto destacado */
+.destaque {
+  font-weight: 600;
+  color: #0369a1;
+}
+
+/* Botões de ação */
+.botao {
+  display: inline-block;
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid #0284c7;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.botao-secundario {
+  background-color: #64748b;
+  border-color: #64748b;
+  color: #ffffff;
+}
+
+/* --------------------------------------------------------------------------
+   4. Seletores de Identificador (Elementos Únicos)
+   -------------------------------------------------------------------------- */
+
+#formulario-contacto {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+#percurso {
+  margin-top: 32px;
+}
