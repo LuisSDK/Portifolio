@@ -21,6 +21,8 @@
     />
   </head>
   <body>
+    <a href="#conteudo" class="saltar">Saltar para o conteúdo</a>
+
     <header id="topo">
       <!-- Apresentação e Imagem -->
       <img
@@ -31,17 +33,17 @@
       />
       <h1>Paulo Lopes</h1>
       <p>Futuro programador web, a aprender a construir sites de raiz.</p>
-      <nav>
+      <nav aria-label="Menu principal">
         <p>Início · Sobre · Percurso · Contactos</p>
         <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="projetos.html" aria-current="page">Projetos</a></li>
           <li><a href="contactos.html">Contactos</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main id="conteudo">
       <section>
         <h2>Os meus projetos</h2>
         <p>
@@ -49,16 +51,34 @@
         </p>
         <div class="grelha-projetos">
           <article class="cartao">
+            <img
+              src="imagens/projeto-portefolio.svg"
+              alt="Página inicial do portefólio, com a fotografia, o nome e dois cartões"
+              width="400"
+              height="240"
+            />
             <h3>Portefólio Pessoal:</h3>
             Este mesmo site, construído de raiz com HTML5 semântico,
             estruturação multi-páginas e versionado no GitHub.
           </article>
           <article class="cartao">
+            <img
+              src="imagens/projeto-cidade.svg"
+              alt="Página inicial do portefólio, com a fotografia, o nome e dois cartões"
+              width="400"
+              height="240"
+            />
             <h3>A Minha Cidade:</h3>
             Uma página dedicada a Braga, com ilustrações SVG, dados históricos e
             curiosidades regionais.
           </article>
           <article class="cartao">
+            <img
+              src="imagens/projeto-passadicos.svg"
+              alt="Página inicial do portefólio, com a fotografia, o nome e dois cartões"
+              width="400"
+              height="240"
+            />
             <h3>Receita Tradicional:</h3>
             Estruturação semântica de uma receita de arroz doce, com lista de
             ingredientes e modo de preparo.
@@ -69,6 +89,12 @@
             secções temáticas e testemunhos.
           </article>
           <article class="cartao">
+            <img
+              src="imagens/projeto-eletricos.svg"
+              alt="Página inicial do portefólio, com a fotografia, o nome e dois cartões"
+              width="400"
+              height="240"
+            />
             <h3>Os Elétricos de Lisboa</h3>
             <p>
               Página sobre as linhas de elétrico mais conhecidas de Lisboa, com

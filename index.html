@@ -22,6 +22,7 @@
     />
   </head>
   <body>
+    <a href="#conteudo" class="saltar">Saltar para o conteúdo</a>
     <header id="topo">
       <!-- Apresentação e Imagem -->
       <img
@@ -32,17 +33,17 @@
       />
       <h1>Paulo Lopes</h1>
       <p>Futuro programador web, a aprender a construir sites de raiz.</p>
-      <nav>
+      <nav aria-label="Menu principal">
         <p>Início · Sobre · Percurso · Contactos</p>
         <ul>
-          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html" aria-current="page">Inicio</a></li>
           <li><a href="projetos.html">Projetos</a></li>
           <li><a href="contactos.html">Contactos</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main id="conteudo">
       <!-- Sobre mim -->
       <section>
         <h2>Sobre mim</h2>
@@ -74,6 +75,35 @@
           </p>
         </aside>
       </section>
+
+      <section>
+        <!-- Vídeo de apresentação -->
+        <h2>Apresentação em vídeo</h2>
+        <figure>
+          <video
+            controls
+            width="640"
+            height="360"
+            preload="metadata"
+            poster="imagens/video-capa.jpg"
+          >
+            <source src="video/apresentacao.mp4" type="video/mp4" />
+            <track
+              kind="captions"
+              src="video/apresentacao.vtt"
+              srclang="pt"
+              label="Português"
+              default
+            />
+            O vosso browser não consegue mostrar este vídeo.
+            <a href="video/apresentacao.mp4">Descarreguem o vídeo</a>.
+          </video>
+          <figcaption>
+            Em 9 segundos: quem sou e o que procuro (com legendas).
+          </figcaption>
+        </figure>
+      </section>
+
 
       <!-- O meu percurso -->
       <section>
